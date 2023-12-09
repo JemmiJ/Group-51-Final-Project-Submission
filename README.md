@@ -1,1 +1,3 @@
-# Group-51-Final-Project-Submission
+# Final Project
+
+This is a Group Pproject for Jemoi Johnson and Raymond Dobsonn
