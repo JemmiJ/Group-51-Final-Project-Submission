@@ -1,0 +1,63 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 20px 0;
+}
+
+/* Styling the h1 */
+h1 {
+    font-size: 24px;
+}
+
+/* Styling the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+/* Styling the header */
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling the form inputs */
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Styling the login button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color:rgb(66, 66, 229);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Hover effect for login button */
+.login-btn:hover {
+    background-color: #5e30f3e7;
+}
+footer {
+    text-align: center;
+}

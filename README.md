@@ -1,3 +1,3 @@
 # Final Project
 
-This is a Group Pproject for Jemoi Johnson and Raymond Dobsonn
+This is a Group Project for Jemoi Johnson and Raymond Dobson
