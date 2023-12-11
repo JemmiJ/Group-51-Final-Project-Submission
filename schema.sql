@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS Users (
 ) ENGINE=MyISAM AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `Users` (`firstname`, `lastname`, `password`, `email`, `role`, `created_at`)
-VALUES ('Jemoi', 'Johnson', SHA2('password123', 512), 'admin@project2.com', 'Admin', CURRENT_TIMESTAMP);
+VALUES ('Jemoi', 'Johnson', SHA2('password123', 256), 'admin@project2.com', 'Admin', CURRENT_TIMESTAMP);
 
 CREATE TABLE IF NOT EXISTS `Contacts` (
     id INT NOT NULL AUTO_INCREMENT,
