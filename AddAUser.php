@@ -4,7 +4,7 @@ $feedback = "";
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $host = "localhost";
     $username = "dbadmin";
-    $password = "unlock";
+    $password = "password";
     $dbname = "dolphin_crm";
 
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
@@ -69,10 +69,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </header>
     <div class="sidebar">
         <ul>
-            <li>Home</li>
-            <li>New Contact</li>
-            <li>Users</li>
-            <li>Logout</li>
+            <li><a href="Dashboard.php"> Home</a></li>
+            <li><a href="add_contact.php"> New Contacts</a></li>
+            <li><a href="ListUsers.php"> Users</a></li>
+            <li><a href="logout.php">Logout</a></li>
+
         </ul>
     </div>
     <div class="content">
